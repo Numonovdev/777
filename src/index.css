@@ -1,0 +1,30 @@
+:root{
+    --black-white: black;
+    --white-black: white;
+    --black-gray:black;
+}
+[data-theme="dark"]{
+    --black-white:white;
+    --white-black:black;
+    --black-gray:rgb(56, 56, 56);
+}
+
+.black-white{
+    color: var(--black-white);
+}
+
+.gray-gray{
+   color:  #3A3B3E;
+}
+
+.headerr{
+    background: linear-gradient(180.16deg, rgba(17, 121, 252, 0.12) -13.26%, rgba(255, 255, 255, 0) 81.35%);
+}
+
+
+.footerr{
+    background-image: url(./img/image\ 1226.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
