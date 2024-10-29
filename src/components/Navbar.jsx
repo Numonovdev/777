@@ -11,6 +11,7 @@ function Navbar() {
         if (e.target.checked) {
             dispatch({ type: 'DARK' });
             localStorage.setItem('theme', 'dark');
+
         } else {
             dispatch({ type: 'LIGHT' });
             localStorage.setItem('theme', 'light');
